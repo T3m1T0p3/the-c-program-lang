@@ -3,11 +3,11 @@
 /*write a program to  count blanks, tabs, and newlines in input.*/
 
 int main(){
-	int tc, bc,nlc=0;
+	int tc=0, bc=0,nlc=0;
 	char tab='\t';
 	char blank=' ';
 	char new_line='\n';
-	char c;
+	int c;
 	while((c=getchar())!=EOF){
 		if(c==tab)
 			++tc;
